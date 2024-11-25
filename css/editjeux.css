@@ -1,0 +1,86 @@
+body{
+    background-color: beige;
+    margin-left: 15px;
+}
+img{
+    margin-left: 30%;
+    border: 3px solid brown ;
+    
+}
+h2{
+    margin-left: 40%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    animation: anime 5s infinite;
+}
+@keyframes  anime{
+    0%   { left:0px ;color: red;}
+    25%  { color: blue;}
+    50%  { color: rgb(255, 149, 0);}
+    75%  { color: green;}
+    100% { color: red;}
+    
+  }
+  
+#btn1{
+    color: black;
+    border-radius: 2px;
+    background-color: powderblue;
+    font-size: 23px;
+    border: 1px rgb(75, 4, 4) solid;
+    padding: 3px 2px 3px 2px;
+    margin-left: 5%
+}
+#btn2{
+    color: black;
+    border-radius: 2px;
+    background-color: powderblue;
+    font-size: 23px;
+    border: 1px rgb(75, 4, 4) solid;
+    padding: 3px 2px 3px 2px;
+    margin-left: 5%
+
+}
+#texte{
+    
+    margin-left: 15%;
+    margin-top: 15px;
+    
+    
+}
+
+#boutons{
+    margin-left: 42%;  
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  select {
+    margin: -9px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid 2px;
+  }
+  label{
+    font-size: 20px;
+    font-weight: bold;
+    color:darkblue;
+
+  }
+.special{
+    bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .devision{
+    margin-top: 5%;
+  }
+  #result{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: brown;
+  }

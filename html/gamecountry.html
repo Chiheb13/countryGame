@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jouer</title>
+    <script src="../js/jsplay.js"></script>
+    <link rel="stylesheet" href="../css/editjeux.css">
+</head>
+<body>
+    <form action="" method="get" name="play">
+        
+        
+        <h2 >jeu de pays en "stan"</h2>
+        <div id="result"></div>
+        <div class="devision" >
+        <table  id="texte">
+        <tr>
+        <td class="special">
+        <div class="select-container ">
+        <p><label for="1">1-</label>
+        <select name="country1" id="selc1" onchange="disableOptionInSelects(this)">
+        <option value="....">....</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Azerbaïdjan">Azerbaïdjan</option>
+        <option value="Kirghzistan">Kirghzistan</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Tadjikistan">Tadjikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Ousbékistan">Ousbékistan</option>
+
+        </select></p>
+        <p><label for="2">2-</label>
+        <select name="country2" id="selc2" onchange="disableOptionInSelects(this)">
+        <option value="....">....</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Azerbaïdjan">Azerbaïdjan</option>
+        <option value="Kirghzistan">Kirghzistan</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Tadjikistan">Tadjikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Ousbékistan">Ousbékistan</option>
+        </select></p>
+        <p><label for="3">3-</label>
+        <select name="country3" id="selc3" onchange="disableOptionInSelects(this)">
+        <option value="....">....</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Azerbaïdjan">Azerbaïdjan</option>
+        <option value="Kirghzistan">Kirghzistan</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Tadjikistan">Tadjikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Ousbékistan">Ousbékistan</option>
+        </select></p>
+        <p><label for="4">4-</label>
+        <select name="country4" id="selc4" onchange="disableOptionInSelects(this)">
+        <option value="....">....</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Azerbaïdjan">Azerbaïdjan</option>
+        <option value="Kirghzistan">Kirghzistan</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Tadjikistan">Tadjikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Ousbékistan">Ousbékistan</option>
+        </select></p>
+        <p><label for="5">5-</label>
+        <select name="country5" id="selc5" onchange="disableOptionInSelects(this)">
+         <option value="....">....</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Azerbaïdjan">Azerbaïdjan</option>
+        <option value="Kirghzistan">Kirghzistan</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Tadjikistan">Tadjikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Ousbékistan">Ousbékistan</option>
+        </select></p>
+        <p><label for="6">6-</label>
+        <select name="country6" id="selc6" onchange="disableOptionInSelects(this)">
+        <option value="....">....</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Azerbaïdjan">Azerbaïdjan</option>
+        <option value="Kirghzistan">Kirghzistan</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Tadjikistan">Tadjikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Ousbékistan">Ousbékistan</option>
+        </select></p>
+        <p><label for="7">7-</label>
+        <select name="country7" id="selc7" onchange="disableOptionInSelects(this)">
+        <option value="....">....</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Azerbaïdjan">Azerbaïdjan</option>
+        <option value="Kirghzistan">Kirghzistan</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Tadjikistan">Tadjikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Ousbékistan">Ousbékistan</option>
+        </select></p></td><td>
+            <img src="../images/carte.png" alt="cartepays" class="images"></td></tr></div></table>
+        <div id="boutons">
+        <button id="btn1" type="button" onclick="valid()">valid</button>
+        <button id="btn2" type="button" onclick="rejouer()">reset</button></div></div>
+    </form>
+</body>
+</html>
